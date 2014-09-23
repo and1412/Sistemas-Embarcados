@@ -1,0 +1,13 @@
+O ambiente de desenvolvimento é o Linux -> Ubuntu 14.04
+
+O projeto está organizado seguindo a estrutura padrão de um projeto desenvolvido na linguagem C.
+Para facilitar a instalação da aplicação foi criado um arquivo make. Para utilizá-lo, basta ir para o diretório raíz da aplicação por meio do terminal, e digitar o comando make. Com isso o código será compilado gerando o arquivo executável bem como os arquivos compilados.
+
+A organização conta com 4 diretórios:
+
+* bin/ -> Irá armazenar o arquivo executável gerado após a compilação do código. Para executá-lo basta ir para essa pasta através do terminal e digitar ./<nome de binário> <número de 1-999>.
+* include/ -> Armazena os cabeçalhos que contêm as funções disponínilizadas pela API.
+* obj/ -> Armazena os códigos compilados. Caso o comando make seja utilizado mais de uma vez, a aplicação será compilada apenas se o código fonte tiver sido modificado.
+* src/ -> Armazena os códigos fontes da aplicação.
+
+O arquivo Makefile contêm as rotinas de compilação do código.
